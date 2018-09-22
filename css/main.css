@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.maindiv {
+	width: 960px;
+	height:500px;
+	margin: 0 auto;
+	border: 2px solid black;
+}
+
+body header{
+	width: 100%;
+	height : 10%;
+	border: 1px solid red;
+	float: left;
+	margin-top: 10px;
+}
+
+body aside{
+	width: 29%;
+	height : 75%;
+	border: 1px solid red;
+	float: left;
+}
+
+body section{
+	width: 69%;
+	height : 75%;
+	border: 1px solid red;
+	float: right;
+}
+
+body footer{
+	width: 100%;
+	height : 10%;
+	border: 1px solid red;
+	float: left;
+}
+
+article{
+	float: left;
+	
+}
