@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 
 <html>
-<link href="css/main.css" rel="stylesheet" />
+<link href="main.css" rel="stylesheet" />
 <head>
 <meta charset="UTF-8">
 <title>과제물 메인화면</title>
