@@ -6,23 +6,31 @@
 <link href="main.css" rel="stylesheet" />
 <head>
 <meta charset="UTF-8">
+<%
+String pagefile = request.getParameter("page");
+if(pagefile == null){
+	pagefile = "hyundai";
+}
+String pagefileex=".jsp";
+%>
 <title>과제물 메인화면</title>
 
 </head>
 <body>
 <div class="maindiv">
 <header>
- 로그인 링크 
+<a href="./main.jsp?page=login">로그인링크</a>
 </header>
 <aside>
-각자 과제물 링크
+대기업 목록<br>
+<jsp:include page="aside.jsp"/>
 </aside>
 
 <section>
- 과제물 표시영역 
+<jsp:include page="<%=pagefile+pagefileex%>"/>
 </section>
 <footer>
-회원가입 링크 
+<a href="./main.jsp?page=memberjoin">회원가입 링크</a> 
 
 </footer>
 </div>
