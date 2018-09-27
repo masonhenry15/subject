@@ -23,8 +23,9 @@ String pagefileex=".jsp";
 조성환 로그인 <jsp:include page="header.jsp"/>
 </header>
 <aside>
+강제종 과제 (대기업 목록)<br>
 대기업 목록<br>
-<jsp:include page="aside.jsp"/>
+<jsp:include page="aside.jsp"/><br>
 조성환 과제 (우편번호/지역번호 양식)<br>
 <jsp:include page="aside1.jsp"/>
 </aside>

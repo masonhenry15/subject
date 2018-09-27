@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+.login {
+	background-color: #0099CC;
+	color: white;
+	width: 110px;
+	height: 80px;
+}
+
+#save_id {
+	font-size: 15px;
+}
+
+#keyboard_security {
+	font-size: 15px;
+}
+
+.box {
+	width: 20px;
+	height: 20px;
+}
+
+.id {
+	width: 260px;
+	height: 30px;
+}
+
+.pwd {
+	width: 260px;
+	height: 30px;
+}
+
+.member {
+	margin: 15px;
+}
+
+.join {
+	width: 100px;
+}
+
+.idfind {
+	width: 100px;
+	margin: 35px;
+}
+
+.pwdfind {
+	width: 100px;
+}
