@@ -19,19 +19,22 @@ String pagefileex=".jsp";
 <body>
 <div class="maindiv">
 <header>
-<a href="./main.jsp?page=login">로그인링크</a>
+<a href="./main.jsp?page=login">로그인링크</a><br>
+조성환 로그인 <jsp:include page="header.jsp"/>
 </header>
 <aside>
 대기업 목록<br>
 <jsp:include page="aside.jsp"/>
+조성환 과제 (우편번호/지역번호 양식)<br>
+<jsp:include page="aside1.jsp"/>
 </aside>
 
 <section>
 <jsp:include page="<%=pagefile+pagefileex%>"/>
 </section>
 <footer>
-<a href="./main.jsp?page=memberjoin">회원가입 링크</a> 
-
+<a href="./main.jsp?page=memberjoin">회원가입 링크</a> <br>
+조성환 회원가입 <jsp:include page="footer.jsp"/>
 </footer>
 </div>
 </body>
